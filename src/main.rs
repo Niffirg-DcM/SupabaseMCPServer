@@ -12,7 +12,10 @@ fn main() {
 
     // Must offer tools for supabase
 
+
     // must handle reqests to said tools
 
+
     // this will have us looping on stdin to find pipelined inputs
+    
 }
