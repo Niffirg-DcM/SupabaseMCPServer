@@ -59,8 +59,8 @@ pub fn offer() {
                         parameters: json!({
                             "type": "Object", 
                             "properties": {
-                                "start_date": {"type": "String", "description": "Starting datetime for the range asked for by the client."},
-                                "end_date": {"type": "String", "description": "Ending datetime for the range asked for by the client."}
+                                "start_date": {"type": "String", "description": "Starting datetime for the range asked for by the client. Format: YYYY-MM-DDTHH:MM:SS"},
+                                "end_date": {"type": "String", "description": "Ending datetime for the range asked for by the client. Format: YYYY-MM-DDTHH:MM:SS"}
                             },
                             "required": ["start_date","end_date"]
                         })

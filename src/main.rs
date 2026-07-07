@@ -24,7 +24,7 @@ fn main() {
 
         let trimmed = input.trim();
         
-
+        //need to handle aysnc response and print it to pipe.
         process_tools::process(trimmed);
 
 
