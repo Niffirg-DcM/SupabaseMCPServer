@@ -47,7 +47,7 @@ pub fn offer() {
                     },
                     OutDeclarations {
                         name: String::from("Total_Entries"),
-                        description: String::from("gets the number of total entries in the SupabaseDB."),
+                        description: String::from("gets the number of total entries in the SupabaseDB across all times. Also known as the total number of rows in the db."),
                         parameters: json!({
                             "type": "Object", 
                             "properties": {},
@@ -55,7 +55,7 @@ pub fn offer() {
                     },
                     OutDeclarations {
                         name: String::from("Total_from_dates"),
-                        description: String::from("gets the number of total entries in the SupabaseDB from datetime x to datetime y."),
+                        description: String::from("gets the number of entries or rows in the SupabaseDB from datetime x to datetime y."),
                         parameters: json!({
                             "type": "Object", 
                             "properties": {
